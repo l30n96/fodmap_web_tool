@@ -456,6 +456,7 @@
           <option value="fodmap" id="opt-fodmap">FODMAP-Index</option>
           <option value="category" id="opt-category">Kategorie</option>
           <option value="name" id="opt-name">Name</option>
+          <option value="details" id="opt-details">Details</option>
         </select>
       </div>
       <div class="export-group">
@@ -502,6 +503,7 @@ let allData = [];
 let activeList = localStorage.getItem('fodmap-active-list') || 'default';
 let lists = {};   // { listName: [item, ...] }
 let modalCallback = null;
+let showAll = false;
 
 // ─── Theme ────────────────────────────────────────────────────────────────────
 (function applyStoredTheme() {
@@ -574,6 +576,7 @@ function applyLang() {
   document.getElementById('opt-fodmap').textContent = de ? 'FODMAP-Index' : 'FODMAP Index';
   document.getElementById('opt-category').textContent = de ? 'Kategorie' : 'Category';
   document.getElementById('opt-name').textContent = de ? 'Name' : 'Name';
+  document.getElementById('opt-details').textContent = de ? 'Details' : 'Details';
   document.getElementById('btn-csv').textContent = '↓ CSV';
   document.getElementById('btn-json').textContent = '↓ JSON';
   document.getElementById('th-name').textContent = de ? 'Name' : 'Name';
@@ -599,6 +602,17 @@ function renderListTabs() {
   const bar = document.getElementById('lists-bar');
   bar.innerHTML = '';
 
+  // "All foods" browse tab
+  const allBtn = document.createElement('button');
+  allBtn.className = 'list-tab' + (showAll ? ' active' : '');
+  allBtn.innerHTML = `<span>${lang === 'de' ? '☰ Alle Lebensmittel' : '☰ All Foods'}</span>`;
+  allBtn.onclick = () => {
+    showAll = !showAll;
+    renderListTabs();
+    renderTable();
+  };
+  bar.appendChild(allBtn);
+
   const names = Object.keys(lists);
   names.forEach(name => {
     const tab = document.createElement('button');
@@ -620,6 +634,7 @@ function renderListTabs() {
 
 function switchList(name) {
   activeList = name;
+  showAll = false;
   saveLists();
   renderListTabs();
   renderTable();
@@ -752,7 +767,7 @@ function renderTable() {
   const nameKey = lang === 'de' ? 'name_de' : 'name';
   const catKey = lang === 'de' ? 'category_de' : 'category';
 
-  let items = [...(lists[activeList] || [])];
+  let items = showAll ? [...allData] : [...(lists[activeList] || [])];
 
   if (!items.length) {
     tbody.innerHTML = '';
@@ -763,12 +778,17 @@ function renderTable() {
 
   // Sort
   const ORDER = { low: 0, medium: 1, high: 2 };
+  const detailScore = i => Math.max(i.oligos ?? i.details?.oligos ?? 0, i.fructose ?? i.details?.fructose ?? 0, i.polyols ?? i.details?.polyols ?? 0, i.lactose ?? i.details?.lactose ?? 0);
+
   if (sortBy === 'fodmap') {
     items.sort((a, b) => (ORDER[b.fodmap] ?? 0) - (ORDER[a.fodmap] ?? 0) ||
       (a[nameKey] || a.name).localeCompare(b[nameKey] || b.name));
   } else if (sortBy === 'category') {
     items.sort((a, b) =>
       (a[catKey] || a.category).localeCompare(b[catKey] || b.category) ||
+      (a[nameKey] || a.name).localeCompare(b[nameKey] || b.name));
+  } else if (sortBy === 'details') {
+    items.sort((a, b) => detailScore(b) - detailScore(a) ||
       (a[nameKey] || a.name).localeCompare(b[nameKey] || b.name));
   } else {
     items.sort((a, b) => (a[nameKey] || a.name).localeCompare(b[nameKey] || b.name));
@@ -781,12 +801,16 @@ function renderTable() {
     let groupKey = '';
     if (sortBy === 'fodmap') groupKey = item.fodmap;
     else if (sortBy === 'category') groupKey = item[catKey] || item.category;
+    else if (sortBy === 'details') groupKey = String(detailScore(item));
 
     if (groupKey && groupKey !== lastGroup) {
       lastGroup = groupKey;
       let label = groupKey;
       if (sortBy === 'fodmap') {
         const lvl = { low: lang === 'de' ? '🟢 Niedrig' : '🟢 Low', medium: lang === 'de' ? '🟡 Mittel' : '🟡 Medium', high: lang === 'de' ? '🔴 Hoch' : '🔴 High' };
+        label = lvl[groupKey] || groupKey;
+      } else if (sortBy === 'details') {
+        const lvl = { '0': lang === 'de' ? '— Keine' : '— None', '1': lang === 'de' ? '🟡 Mittel' : '🟡 Medium', '2': lang === 'de' ? '🔴 Hoch' : '🔴 High' };
         label = lvl[groupKey] || groupKey;
       }
       rows += `<tr class="group-header"><td colspan="6">${label}</td></tr>`;
@@ -804,6 +828,15 @@ function renderTable() {
     const cat = item[catKey] || item.category;
     const qty = item.qty || '—';
 
+    const actionBtn = showAll
+      ? (() => {
+          const inList = (lists[activeList] || []).find(x => x.id === item.id);
+          return inList
+            ? `<button class="remove-btn" disabled title="${lang === 'de' ? 'Bereits in der Liste' : 'Already in list'}" style="color:var(--low);cursor:default">✓</button>`
+            : `<button class="remove-btn" onclick="addItem('${item.id}')" title="${lang === 'de' ? 'Zur Liste hinzufügen' : 'Add to list'}" style="color:var(--accent)">+</button>`;
+        })()
+      : `<button class="remove-btn" onclick="removeItem('${item.id}')" title="${lang === 'de' ? 'Entfernen' : 'Remove'}">×</button>`;
+
     rows += `
       <tr>
         <td><strong>${name}</strong></td>
@@ -811,7 +844,7 @@ function renderTable() {
         <td><span class="fodmap-badge fodmap-${item.fodmap}">${item.fodmap}</span></td>
         <td><div class="details-cell">${chips || '<span style="color:var(--muted);font-size:12px">—</span>'}</div></td>
         <td style="font-size:12px; color:var(--muted)">${qty}</td>
-        <td><button class="remove-btn" onclick="removeItem('${item.id}')" title="${lang === 'de' ? 'Entfernen' : 'Remove'}">×</button></td>
+        <td>${actionBtn}</td>
       </tr>`;
   });
 
