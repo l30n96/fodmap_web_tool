@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 /**
- * Converts fodmap-liste.csv → public/data/fodmap_de.json and public/data/fodmap.json
+ * Converts fodmap_de.csv → public/data/fodmap_de.json and public/data/fodmap.json
  *
- * CSV columns: Name, Kategorie, FODMAP, Oligos, Fructose, Polyole, Laktose, Menge
+ * CSV columns: id, name, name_de, category, category_de, fodmap, oligos, fructose, polyols, lactose
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const CSV_PATH = path.join(__dirname, '..', 'fodmap-liste.csv');
+const CSV_PATH = path.join(__dirname, '..', 'fodmap_de.csv');
 const OUT_DE = path.join(__dirname, '..', 'public', 'data', 'fodmap_de.json');
 const OUT_EN = path.join(__dirname, '..', 'public', 'data', 'fodmap.json');
 
@@ -70,11 +70,11 @@ if (rows.length < 2) {
 }
 
 const [header, ...dataRows] = rows;
-// Expected: Name, Kategorie, FODMAP, Oligos, Fructose, Polyole, Laktose, Menge
+// Expected: id, name, name_de, category, category_de, fodmap, oligos, fructose, polyols, lactose
 const COL = {};
 header.forEach((h, i) => { COL[h.trim()] = i; });
 
-const required = ['Name', 'Kategorie', 'FODMAP', 'Oligos', 'Fructose', 'Polyole', 'Laktose', 'Menge'];
+const required = ['id', 'name', 'name_de', 'category', 'category_de', 'fodmap', 'oligos', 'fructose', 'polyols', 'lactose'];
 for (const col of required) {
   if (COL[col] === undefined) {
     console.error(`Missing expected column: "${col}". Found: ${header.join(', ')}`);
@@ -82,30 +82,31 @@ for (const col of required) {
   }
 }
 
-const items = dataRows.map((row, idx) => {
-  const name   = row[COL['Name']].trim();
-  const cat    = row[COL['Kategorie']].trim();
-  const fodmap = row[COL['FODMAP']].trim().toLowerCase();
-  const oligos  = parseInt(row[COL['Oligos']], 10)  || 0;
-  const fructose = parseInt(row[COL['Fructose']], 10) || 0;
-  const polyols  = parseInt(row[COL['Polyole']], 10)  || 0;
-  const lactose  = parseInt(row[COL['Laktose']], 10)  || 0;
-  const qty    = row[COL['Menge']].trim();
+const items = dataRows.map((row) => {
+  const id       = row[COL['id']].trim();
+  const name     = row[COL['name']].trim();
+  const name_de  = row[COL['name_de']].trim();
+  const cat      = row[COL['category']].trim();
+  const cat_de   = row[COL['category_de']].trim();
+  const fodmap   = row[COL['fodmap']].trim().toLowerCase();
+  const oligos   = parseInt(row[COL['oligos']], 10)   || 0;
+  const fructose = parseInt(row[COL['fructose']], 10) || 0;
+  const polyols  = parseInt(row[COL['polyols']], 10)  || 0;
+  const lactose  = parseInt(row[COL['lactose']], 10)  || 0;
 
   if (!name) return null; // skip blank rows
 
   return {
-    id: String(idx + 1),
+    id,
     name,
-    name_de: name,
+    name_de,
     category: cat,
-    category_de: cat,
+    category_de: cat_de,
     fodmap,
     oligos,
     fructose,
     polyols,
     lactose,
-    qty,
   };
 }).filter(Boolean);
 
