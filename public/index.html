@@ -7,34 +7,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
+    /* Catppuccin Latte — light mode */
     :root {
-      --bg: #f7f5f0;
+      --bg: #eff1f5;
       --surface: #ffffff;
-      --border: #d8d3c8;
-      --text: #1a1a18;
-      --muted: #7a7670;
-      --low: #2d6a4f;
-      --low-bg: #d8f3dc;
-      --med: #b07d00;
-      --med-bg: #fff3cd;
-      --high: #c0392b;
-      --high-bg: #fde8e6;
-      --accent: #2c5282;
+      --border: #bcc0cc;
+      --text: #4c4f69;
+      --muted: #9ca0b0;
+      --low: #40a02b;
+      --low-bg: #ddf3d8;
+      --med: #df8e1d;
+      --med-bg: #faf0d7;
+      --high: #d20f39;
+      --high-bg: #fde0e7;
+      --accent: #1e66f5;
     }
 
+    /* Catppuccin Mocha — dark mode (default) */
     [data-theme="dark"] {
-      --bg: #111110;
-      --surface: #1c1c1a;
-      --border: #2e2e2b;
-      --text: #e8e6e1;
-      --muted: #7a7870;
-      --low: #4ade80;
-      --low-bg: #14301f;
-      --med: #fbbf24;
-      --med-bg: #2d2200;
-      --high: #f87171;
-      --high-bg: #2d1212;
-      --accent: #60a5fa;
+      --bg: #1e1e2e;
+      --surface: #313244;
+      --border: #45475a;
+      --text: #cdd6f4;
+      --muted: #6c7086;
+      --low: #a6e3a1;
+      --low-bg: #1c3129;
+      --med: #f9e2af;
+      --med-bg: #332a1a;
+      --high: #f38ba8;
+      --high-bg: #331a24;
+      --accent: #89b4fa;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -48,8 +50,9 @@
     }
 
     header {
-      background: var(--text);
-      color: #fff;
+      background: var(--surface);
+      color: var(--text);
+      border-bottom: 2px solid var(--accent);
       padding: 14px 24px;
       display: flex;
       align-items: center;
@@ -62,6 +65,7 @@
       font-size: 15px;
       font-weight: 500;
       letter-spacing: 0.05em;
+      color: var(--accent);
     }
 
     .header-right {
@@ -72,7 +76,7 @@
 
     .lang-toggle {
       display: flex;
-      border: 1px solid rgba(255,255,255,0.3);
+      border: 1px solid var(--border);
       border-radius: 4px;
       overflow: hidden;
     }
@@ -80,7 +84,7 @@
     .lang-toggle button {
       background: transparent;
       border: none;
-      color: rgba(255,255,255,0.6);
+      color: var(--muted);
       padding: 4px 10px;
       cursor: pointer;
       font-family: 'IBM Plex Mono', monospace;
@@ -89,7 +93,7 @@
     }
 
     .lang-toggle button.active {
-      background: rgba(255,255,255,0.15);
+      background: var(--accent);
       color: #fff;
     }
 
@@ -117,7 +121,7 @@
       transition: border-color 0.15s;
     }
 
-    .search-input:focus { border-color: var(--text); }
+    .search-input:focus { border-color: var(--accent); }
 
     .suggestions {
       position: absolute;
@@ -176,9 +180,9 @@
     }
 
     .list-tab.active {
-      background: var(--text);
+      background: var(--accent);
       color: #fff;
-      border-color: var(--text);
+      border-color: var(--accent);
     }
 
     .list-tab .del-list {
@@ -204,12 +208,12 @@
     .btn:hover { background: var(--bg); }
 
     .btn-primary {
-      background: var(--text);
+      background: var(--accent);
       color: #fff;
-      border-color: var(--text);
+      border-color: var(--accent);
     }
 
-    .btn-primary:hover { opacity: 0.85; background: var(--text); }
+    .btn-primary:hover { opacity: 0.85; background: var(--accent); }
 
     .btn-sm { padding: 4px 10px; font-size: 12px; }
 
@@ -246,6 +250,7 @@
       border-radius: 4px;
       padding: 3px 8px;
       background: var(--bg);
+      color: var(--text);
       cursor: pointer;
     }
 
@@ -385,17 +390,19 @@
       font-size: 14px;
       margin-bottom: 16px;
       outline: none;
+      background: var(--bg);
+      color: var(--text);
     }
 
-    .modal input:focus { border-color: var(--text); }
+    .modal input:focus { border-color: var(--accent); }
 
     .modal-actions { display: flex; gap: 8px; justify-content: flex-end; }
 
     .theme-toggle {
       background: transparent;
-      border: 1px solid rgba(255,255,255,0.3);
+      border: 1px solid var(--border);
       border-radius: 4px;
-      color: rgba(255,255,255,0.7);
+      color: var(--muted);
       padding: 4px 8px;
       cursor: pointer;
       font-size: 14px;
@@ -403,7 +410,7 @@
       transition: all 0.15s;
     }
 
-    .theme-toggle:hover { background: rgba(255,255,255,0.1); color: #fff; }
+    .theme-toggle:hover { background: var(--bg); color: var(--text); }
 
     @media (max-width: 600px) {
       td:nth-child(4), th:nth-child(4) { display: none; }
@@ -498,8 +505,13 @@ let modalCallback = null;
 
 // ─── Theme ────────────────────────────────────────────────────────────────────
 (function applyStoredTheme() {
-  const dark = localStorage.getItem('fodmap-theme') === 'dark';
-  if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+  // Dark is the default — only opt out if user explicitly chose light
+  const stored = localStorage.getItem('fodmap-theme');
+  if (stored === 'light') {
+    document.documentElement.removeAttribute('data-theme');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
 })();
 
 function toggleTheme() {
