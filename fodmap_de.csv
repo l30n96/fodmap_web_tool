@@ -1,0 +1,430 @@
+id,name,name_de,category,category_de,fodmap,oligos,fructose,polyols,lactose
+1,Polenta,Polenta,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+2,Fennel,Fenchel,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+3,Vegetable oil,Pflanzenöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+4,Peanut oil,Erdnussöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+5,Cocoa powder,Kakaopulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+6,Pineapple,Ananas,Fruit,Obst,low,0,0,0,0
+7,Hummus / houmous,Hummus / Houmous,Condiments,Gewürze,high,2,0,0,0
+8,Instant coffee (only if not made with lactose or other FODMAPS),Instantkaffee (nur wenn er nicht mit Laktose oder anderen FODMAPS zubereitet wird),Drinks,Getränke,low,0,0,0,0
+9,Coffee (regular or decaf),Kaffee (normal oder entkoffeiniert),Drinks,Getränke,low,0,0,0,0
+10,Tofu (drained or firm),Tofu (abgetropft oder fest),Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+11,Canola oil,Rapsöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+12,Brussel sprouts,Rosenkohl,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+13,Peanut butter,Erdnussbutter,Condiments,Gewürze,low,0,0,0,0
+14,Almond butter,Mandelbutter,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+15,Seaweed / nori,Algen / Nori,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+16,Pine nuts,Pinienkerne,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+17,Lime juice,Limettensaft,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+18,Lime,Kalk,Fruit,Obst,low,0,0,0,0
+19,"Figs, dried","Feigen, getrocknet",Fruit,Obst,high,2,0,0,0
+20,Silverbeet / chard,Silberrübe / Mangold,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+21,Ginger,Ingwer,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+22,Coconut oil,Kokosöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+23,Scallop,Jakobsmuschel,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+24,Flax seeds/lineseed,Leinsamen/Leinsamen,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+25,Leeks,Lauch,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+26,Kholrabi,Kholrabi,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+27,Cherries,Kirschen,Fruit,Obst,high,0,2,1,0
+28,Baking soda,Backpulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+29,Turmeric,Kurkuma,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+30,Baking powder,Backpulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+31,Pumpkin seeds,Kürbiskerne,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+32,Pomegranate,Granatapfel,Fruit,Obst,high,2,0,0,0
+33,Pinto beans,Pintobohnen,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+34,Dates,Termine,Fruit,Obst,high,2,0,0,0
+35,Curry powder,Currypulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+36,Coconut sugar,Kokoszucker,Sweeteners,Süßstoffe,low,0,0,0,0
+37,Coconut cream,Kokoscreme,Milk,Milch,low,0,0,0,0
+38,Vinegar,Essig,Condiments,Gewürze,low,0,0,0,0
+39,Bacon,Speck,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+40,Vanilla,Vanille,Sweeteners,Süßstoffe,low,0,0,0,0
+41,Prune,Prune,Fruit,Obst,high,2,0,2,0
+43,Brown sugar,Brauner Zucker,Sweeteners,Süßstoffe,low,0,0,0,0
+44,White sugar,Weißer Zucker,Sweeteners,Süßstoffe,low,0,0,0,0
+45,Maple syrup,Ahornsirup,Sweeteners,Süßstoffe,low,0,0,0,0
+46,Ground beef,Hackfleisch,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+48,Croissants,Croissants,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,,,,
+49,Crumpets,Fladenbrot,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,,,,
+51,Margarine,Margarine,Dairy,Molkerei,low,0,0,0,0
+52,Ketchup (USA),Ketchup (USA),Condiments,Gewürze,low,0,0,0,0
+53,"Lentils, boiled","Linsen, gekocht",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+54,Shallot,Schalotte,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+55,Nectarine,Nektarine,Fruit,Obst,high,2,0,2,0
+56,Mandarin,Mandarin,Fruit,Obst,low,0,0,0,0
+57,Whiskey,Whiskey,Drinks,Getränke,low,0,0,0,0
+58,Vodka,Wodka,Drinks,Getränke,low,0,0,0,0
+59,Yam,Süßkartoffel,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+60,Rutabaga/Swede,Rutabaga/Schwede,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+61,Radish,Rettich,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+62,Olives,Oliven,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+63,Chives,Schnittlauch,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+64,Bell pepper,Paprika,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+65,Arugula,Rucola,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+66,Bok choy,Bok Choi,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+67,Taro,Taro,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+68,"Soy beans, boiled","Sojabohnen, gekocht",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+69,"Mung beans, boiled","Mungobohnen, gekocht",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+70,"Lima beans, boiled","Limabohnen, gekocht",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+71,"Haricot beans, boiled","Weiße Bohnen, gekocht",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+72,Sauerkraut,Sauerkraut,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,0,0,2,0
+73,Falafel,Falafel,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+74,Chayote / choko,Chayote / Choko,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+75,Cho Cho,Cho Cho,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+76,Cassava,Maniok,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+77,"Butter beans, canned","Butterbohnen, aus der Dose",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+78,Broad beans,Saubohnen,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,0,2,0,0
+79,"Kidney beans, boiled","Kidneybohnen, gekocht",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+80,Black eyed peas,Schwarzäugige Erbsen,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,,,,
+81,"Black beans, boiled","Schwarze Bohnen, gekocht",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+82,Beetroots/Beets,Rote Bete/Rüben,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+83,Baked beans,Gebackene Bohnen,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,2,0,0
+84,"Artichoke, globe","Artischocke, Globus",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+85,Kefir,Kefir,Dairy,Molkerei,high,0,0,0,2
+86,White tea,Weißer Tee,Drinks,Getränke,low,0,0,0,0
+87,Green tea,Grüner Tee,Drinks,Getränke,low,0,0,0,0
+88,"Black tea, weak","Schwarzer Tee, schwach",Drinks,Getränke,low,0,0,0,0
+89,"Black tea, strong","Schwarzer Tee, stark",Drinks,Getränke,high,1,0,0,0
+90,"Chai tea, weak","Chai-Tee, schwach",Drinks,Getränke,low,0,0,0,0
+91,Oolong tea,Oolong-Tee,Drinks,Getränke,high,2,0,0,0
+92,"Dandelion tea, strong","Löwenzahntee, stark",Drinks,Getränke,high,2,0,0,0
+93,"Chai tea, strong","Chai-Tee, stark",Drinks,Getränke,high,2,0,0,0
+94,Chamomile tea,Kamillentee,Drinks,Getränke,high,2,0,0,0
+96,Rum,Rum,Drinks,Getränke,high,0,2,0,0
+97,Cold cuts / deli meat / cold meats such as ham,Aufschnitt / Feinkost / Aufschnitt wie Schinken,Meat & Substitutes,Fleisch und Ersatzstoffe,low,,,,
+98,Turkey,Truthahn,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+99,Prosciutto,Schinken,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+100,Thyme,Thymian,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+101,Tarragon,Estragon,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+102,Rosemary,Rosmarin,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+103,Rampa / pandan leaves,Rampa/Pandanblätter,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+105,Oregano,Oregano,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+106,Mint,Minze,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+107,Lemongrass,Zitronengras,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+108,Gotukala,Gotukala,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+109,"Fenugreek leaves, dried","Bockshornkleeblätter, getrocknet","Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+110,Curry leaves,Curryblätter,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+111,Coriander,Koriander,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+112,Cilantro,Koriander,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+113,Basil,Basilikum,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+114,Parsley,Petersilie,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+115,Cinnamon,Zimt,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+116,Acesulfame K,Acesulfam K,Sweeteners,Süßstoffe,low,0,0,0,0
+117,Agave,Agave,Sweeteners,Süßstoffe,high,2,2,0,0
+118,Almond milk,Mandelmilch,Milk,Milch,low,0,0,0,0
+119,Almonds,Mandeln,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+120,Apple juice,Apfelsaft,Drinks,Getränke,high,0,2,2,0
+121,Apples,Äpfel,Fruit,Obst,high,0,2,2,0
+122,Apricot,Aprikose,Fruit,Obst,high,1,0,2,0
+123,Asparagus,Spargel,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,0,2,0,0
+124,Aspartame,Aspartam,Sweeteners,Süßstoffe,low,0,0,0,0
+125,Avocado,Avocado,Fruit,Obst,high,0,0,2,0
+126,Bamboo shoots,Bambussprossen,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+127,"Bananas, ripe","Bananen, reif",Fruit,Obst,high,2,0,0,0
+128,Barbeque sauce,Barbecue-Sauce,Condiments,Gewürze,low,0,0,0,0
+129,"Barley, pearl","Gerste, Perle","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+130,Bean sprouts,Sojasprossen,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+131,Beef,Rindfleisch,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+132,Eggs,Eier,Dairy,Molkerei,low,0,0,0,0
+133,Beer,Bier,Drinks,Getränke,low,0,0,0,0
+134,Blackberry,Brombeere,Fruit,Obst,high,0,0,2,0
+135,Blueberry,Blaubeere,Fruit,Obst,low,0,0,0,0
+136,"Wheat bran, pellets","Weizenkleie, Pellets","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,1,0,0
+137,Brazil Nuts,Paranüsse,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+138,Brie cheese,Brie-Käse,Cheese,Käse,low,0,0,0,0
+139,Broccoli,Brokkoli,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+140,"Buckwheat, flour","Buchweizen, Mehl","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+141,Butter,Butter,Dairy,Molkerei,low,0,0,0,0
+142,Buttermilk,Buttermilch,Dairy,Molkerei,high,0,0,0,2
+143,"Cabbage, common","Kohl, gewöhnlich",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+144,"Cabbage, savoy","Kohl, Wirsing",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+145,Camembert cheese,Camembert-Käse,Cheese,Käse,low,0,0,0,0
+146,Cantaloupe,Kantalupe,Fruit,Obst,low,0,0,0,0
+147,Carrots,Karotten,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+148,Cashews,Cashewnüsse,Nuts and Seeds,Nüsse und Samen,high,2,0,0,0
+149,Cauliflower,Blumenkohl,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,0,0,2,0
+150,Celery,Sellerie,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+151,Cheddar cheese,Cheddar-Käse,Cheese,Käse,low,0,0,0,0
+152,Chestnuts,Kastanien,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+153,Chia seeds,Chiasamen,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+154,"Chickpeas, canned","Kichererbsen, aus der Dose",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+155,Chicken,Huhn,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+156,"Chips, potato crisps (plain)","Chips, Kartoffelchips (natur)","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+157,Chorizo,Chorizo,Meat & Substitutes,Fleisch und Ersatzstoffe,high,,,,
+158,Chutney,Chutney,Condiments,Gewürze,low,0,0,0,0
+159,Clementine,Clementine,Fruit,Obst,low,0,0,0,0
+160,Coconut (fresh or dried),Kokosnuss (frisch oder getrocknet),Fruit,Obst,low,0,0,0,0
+161,"Coconut milk, canned","Kokosmilch, aus der Dose",Milk,Milch,low,0,0,0,0
+162,Coconut water,Kokoswasser,Drinks,Getränke,high,1,0,2,0
+163,"Coffee, black","Kaffee, schwarz",Drinks,Getränke,low,,,,
+164,Colby cheese,Colby-Käse,Cheese,Käse,low,0,0,0,0
+165,Corn / Sweet corn,Mais / Zuckermais,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+166,Cornflour,Maismehl,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+167,Cottage cheese,Hüttenkäse,Cheese,Käse,low,0,0,0,0
+169,"Cous cous, wheat","Couscous, Weizen","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+170,Cow milk,Kuhmilch,Milk,Milch,high,0,0,0,2
+171,Cranberry,Preiselbeere,Fruit,Obst,low,0,0,0,0
+172,"Cream, regular fat","Sahne, normales Fett",Dairy,Molkerei,high,0,0,0,1
+173,Cream cheese,Frischkäse,Cheese,Käse,high,0,0,0,1
+174,Cucumber,Gurke,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+175,Custard,Vanillesoße,Dairy,Molkerei,high,0,0,0,2
+176,Dark chocolate,Dunkle Schokolade,Sweeteners,Süßstoffe,low,0,0,0,0
+177,Dragon Fruit,Drachenfrucht,Fruit,Obst,low,0,0,0,0
+178,Drinking chocolate powder (any % cocoa),Trinkschokoladenpulver (beliebiger Kakaoanteil),Drinks,Getränke,low,0,0,0,0
+179,Durian,Durian,Fruit,Obst,low,0,0,0,0
+180,Eggplant/Aubergine,Aubergine/Aubergine,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+181,Fennel tea,Fencheltee,Drinks,Getränke,high,2,0,0,0
+182,Feta cheese,Feta-Käse,Cheese,Käse,low,0,0,0,0
+183,Garlic,Knoblauch,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+184,Garlic infused oil,Mit Knoblauch angereichertes Öl,Condiments,Gewürze,low,0,0,0,0
+185,Glucose,Glucose,Sweeteners,Süßstoffe,low,,,,
+186,"Gluten free wheat products (e.g. breads, cereals, pasta) made without high fodmap ingredients like honey or garlic","Glutenfreie Weizenprodukte (z. B. Brot, Müsli, Nudeln), hergestellt ohne Zutaten mit hohem Fodmap-Gehalt wie Honig oder Knoblauch","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+187,"Gnocchi, wheat","Gnocchi, Weizen","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+188,Goat cheese,Ziegenkäse,Cheese,Käse,low,0,0,0,0
+189,Goat milk,Ziegenmilch,Milk,Milch,high,0,0,0,2
+190,Golden syrup / light tracle,Goldener Sirup / leichte Spur,Condiments,Gewürze,low,,,,
+191,Granola,Müsli,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,,,,
+192,Grapefruit,Grapefruit,Fruit,Obst,high,2,0,0,0
+193,"Grapes (Red, Green and Black)","Trauben (Rot, Grün und Schwarz)",Fruit,Obst,low,0,0,0,0
+194,Greek yogurt,Griechischer Joghurt,Dairy,Molkerei,low,,,,
+195,Goat yogurt,Ziegenjoghurt,Dairy,Molkerei,low,0,0,0,0
+196,Lactose free yogurt,Laktosefreier Joghurt,Dairy,Molkerei,low,0,0,0,0
+197,Yogurt,Joghurt,Dairy,Molkerei,high,0,0,0,2
+198,Green Beans,Grüne Bohnen,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+199,Green Pepper,Grüner Pfeffer,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+200,Havarti cheese,Havarti-Käse,Cheese,Käse,low,0,0,0,0
+201,Hazelnuts,Haselnüsse,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+202,Hemp milk,Hanfmilch,Milk,Milch,low,0,0,0,0
+203,Oats,Hafer,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+204,Herbal tea (strong),Kräutertee (stark),Drinks,Getränke,high,2,0,0,0
+205,Herbal tea (weak),Kräutertee (schwach),Drinks,Getränke,low,1,0,0,0
+206,High Fructose Corn Syrup (HFCS),Maissirup mit hohem Fruchtzuckergehalt (HFCS),Sweeteners,Süßstoffe,high,2,0,0,0
+207,Hommus dip,Hommus-Dip,Condiments,Gewürze,high,2,0,0,0
+208,Honey,Honig,Sweeteners,Süßstoffe,high,0,2,0,0
+209,Ice cream,Eiscreme,Dairy,Molkerei,high,0,0,0,1
+210,Inulin,Inulin,Sweeteners,Süßstoffe,high,2,0,0,0
+211,Isomalt,Isomalt,Sweeteners,Süßstoffe,high,,,,
+212,Jam (mixed berries),Marmelade (gemischte Beeren),Condiments,Gewürze,high,0,0,2,0
+213,Kale,Grünkohl,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+214,Kiwifruit,Kiwis,Fruit,Obst,low,0,0,0,0
+215,Kumquat,Kumquat,Fruit,Obst,low,0,0,0,0
+216,Lactose free milk,Laktosefreie Milch,Milk,Milch,low,0,0,0,0
+217,Lamb,Lamm,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+218,Lemon,Zitrone,Fruit,Obst,low,0,0,0,0
+219,"Lettuce (e.g. rocket, butter, iceberg, radicchio, red coral, romaine)","Salat (z. B. Rucola, Butter, Eisbergsalat, Radicchio, rote Koralle, Römersalat)",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+220,Macadamia nuts,Macadamianüsse,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+221,Maltitol,Maltit,Sweeteners,Süßstoffe,high,0,0,0,0
+223,Mango,Mango,Fruit,Obst,high,0,2,0,0
+224,Mango juice,Mangosaft,Drinks,Getränke,high,0,2,2,0
+225,Mannitol,Mannit,Sweeteners,Süßstoffe,high,0,0,0,0
+226,Mayonnaise,Mayonnaise,Condiments,Gewürze,low,0,0,0,0
+227,"Melons e.g. Honeydew, galia","Melonen z.B. Honigtau, Galia",Fruit,Obst,low,0,0,0,0
+228,Milk chocolate,Vollmilchschokolade,Dairy,Molkerei,low,0,0,0,0
+229,Mozzarella cheese,Mozzarella-Käse,Cheese,Käse,low,0,0,0,0
+230,Muesli,Müsli,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+231,Muffins,Muffins,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,,,,
+232,Mushrooms,Pilze,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,1,0,2,0
+233,Mustard,Senf,Condiments,Gewürze,low,0,0,0,0
+234,Oat milk,Hafermilch,Milk,Milch,low,0,0,0,0
+235,Oatmeal,Haferflocken,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+236,Onions,Zwiebeln,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+237,Orange,Orange,Fruit,Obst,low,0,0,0,0
+238,Orange juice,Orangensaft,Drinks,Getränke,high,0,2,0,0
+239,Papaya,Papaya,Fruit,Obst,low,0,0,0,0
+240,Parmesan cheese,Parmesankäse,Cheese,Käse,low,0,0,0,0
+241,Parsnip,Pastinake,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+242,Passion Fruit,Passionsfrucht,Fruit,Obst,low,0,0,0,0
+243,Pasta sauce (cream based),Nudelsauce (auf Sahnebasis),Condiments,Gewürze,high,2,0,0,1
+244,Peaches,Pfirsiche,Fruit,Obst,high,0,0,2,0
+245,Peanuts,Erdnüsse,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+246,Pear juice,Birnensaft,Drinks,Getränke,high,0,2,2,0
+247,Pears,Birnen,Fruit,Obst,high,0,2,2,0
+248,Peas,Erbsen,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+249,Pecans,Pekannüsse,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+250,Pecorino cheese,Pecorino-Käse,Cheese,Käse,low,0,0,0,0
+251,Peppermint tea,Pfefferminztee,Drinks,Getränke,low,0,0,0,0
+252,Pineapple,Ananas,Fruit,Obst,low,0,0,0,0
+253,Pistachio,Pistazie,Nuts and Seeds,Nüsse und Samen,high,2,0,0,0
+254,Plums,Pflaumen,Fruit,Obst,high,2,0,2,0
+255,Popcorn,Popcorn,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+256,Poppy seeds,Mohn,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+257,Pork,Schweinefleisch,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+258,Potato,Kartoffel,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+259,Pretzels,Brezeln,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+260,Pumpkin,Kürbis,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+261,Pumpkin seeds,Kürbiskerne,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+262,Quinoa,Quinoa,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+263,Quorn mince,Quorn-Hackfleisch,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+264,Raisins,Rosinen,Fruit,Obst,high,2,0,0,0
+265,Raspberry,Himbeere,Fruit,Obst,low,0,0,0,0
+266,Red Peppers,Rote Paprika,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+267,Relish,Genießen,Condiments,Gewürze,high,2,0,0,0
+268,Rhubarb,Rhabarber,Fruit,Obst,low,0,0,0,0
+269,Brown rice,Brauner Reis,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+270,White rice,Weißer Reis,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+271,Basmati rice,Basmatireis,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+272,Rice milk,Reismilch,Milk,Milch,low,0,0,0,0
+273,Ricotta cheese,Ricotta-Käse,Cheese,Käse,high,0,0,0,1
+274,Rye,Roggen,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,2,0,0
+275,Saccharine,Saccharin,Sweeteners,Süßstoffe,low,0,0,0,0
+276,Sausages,Würstchen,Meat & Substitutes,Fleisch und Ersatzstoffe,high,2,0,0,0
+277,Savory biscuits,Herzhafte Kekse,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+278,Scallions / Spring onions / Green onions (green part),Frühlingszwiebeln / Frühlingszwiebeln / Frühlingszwiebeln (grüner Teil),Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+279,Scallions / Spring onions / Green onions (white part),Frühlingszwiebeln / Frühlingszwiebeln / Frühlingszwiebeln (weißer Teil),Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+280,Semolina,Grieß,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,,,,
+281,Sesame seeds,Sesamsamen,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+282,Sheep's milk,Schafsmilch,Milk,Milch,high,0,0,0,0
+283,Sodas with HFCS,Limonaden mit HFCS,Drinks,Getränke,high,,,,
+284,Sorbitol,Sorbit,Sweeteners,Süßstoffe,high,,,,
+285,Sour cream,Sauerrahm,Dairy,Molkerei,high,0,0,0,2
+286,Soy milk made with soy beans,Sojamilch aus Sojabohnen,Milk,Milch,high,2,0,0,0
+287,Soy sauce,Sojasauce,Condiments,Gewürze,low,0,0,0,0
+288,Soya milk made with soy protein,Sojamilch mit Sojaprotein,Milk,Milch,low,0,0,0,0
+289,Spelt flakes,Dinkelflocken,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+290,Spelt bread (non-sourdough),Dinkelbrot (kein Sauerteig),"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,0,0,0,0
+291,Spelt bread (sourdough),Dinkelbrot (Sauerteig),"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+292,Spelt pasta,Dinkelnudeln,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+293,Butternut squash,Butternusskürbis,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+294,Star Fruit,Sternfrucht,Fruit,Obst,low,0,0,0,0
+295,Stevia,Stevia,Sweeteners,Süßstoffe,low,0,0,0,0
+296,Strawberry,Erdbeere,Fruit,Obst,low,0,0,0,0
+297,Strawberry jam / jelly (without HFCS),Erdbeermarmelade/Gelee (ohne HFCS),Condiments,Gewürze,low,0,0,0,0
+298,Sucralose,Sucralose,Sweeteners,Süßstoffe,low,0,0,0,0
+299,Sugar/sucrose,Zucker/Saccharose,Sweeteners,Süßstoffe,low,0,0,0,0
+300,Sultanas,Sultaninen,Fruit,Obst,high,0,0,0,0
+301,Sunflower seeds,Sonnenblumenkerne,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+302,Sweet Potato,Süßkartoffel,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+303,Swiss cheese,Schweizer Käse,Cheese,Käse,low,0,0,0,0
+304,Tamarind,Tamarinde,Fruit,Obst,low,0,0,0,0
+305,Tangelo,Tangelo,Fruit,Obst,low,0,0,0,0
+306,Tomato sauce,Tomatensauce,Condiments,Gewürze,low,0,0,0,0
+307,Tomatoes,Tomaten,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+308,"Chips, tortilla","Chips, Tortilla","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+309,Turnip,Rübe,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+310,Tzatziki dip,Tzatziki-Dip,Condiments,Gewürze,high,2,2,0,0
+311,Walnuts,Walnüsse,Nuts and Seeds,Nüsse und Samen,low,0,0,0,0
+312,Water,Wasser,Drinks,Getränke,low,0,0,0,0
+313,Watermelon,Wassermelone,Fruit,Obst,high,2,2,2,0
+314,"Wheat foods e.g. Bread, cereal, pasta","Weizenfutter, z.B. Brot, Müsli, Nudeln","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+315,White chocolate,Weiße Schokolade,Dairy,Molkerei,low,0,0,0,0
+316,Wine,Wein,Drinks,Getränke,low,0,0,0,0
+317,Xylitol,Xylit,Sweeteners,Süßstoffe,high,,,,
+318,Zucchini / courgette,Zucchini / Zucchini,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+319,Tahini,Tahini,Condiments,Gewürze,high,2,0,0,0
+320,Spinach,Spinat,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+321,Shrimp,Garnele,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+322,Prawns,Garnelen,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+323,Oysters,Austern,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+324,Mussels,Miesmuscheln,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+325,Lobster,Hummer,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+326,Crab,Krabbe,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+327,Tuna,Thunfisch,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+328,Trout,Forelle,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+329,Salmon,Lachs,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+330,Cod,Kabeljau,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+331,Haddock,Schellfisch,Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+332,Olive Oil,Olivenöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+333,Goji Berries,Goji-Beeren,Fruit,Obst,high,2,0,0,0
+334,Rice Crackers,Reiscracker,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+335,Rice Cakes,Reiskuchen,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+336,Edamame,Edamame,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+337,Acorn Squash,Eichelkürbis,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+338,Balsamic Vinegar,Balsamico-Essig,Condiments,Gewürze,low,0,0,0,0
+339,Apple Cider Vinegar,Apfelessig,Condiments,Gewürze,low,0,0,0,0
+340,Split Peas,Gespaltene Erbsen,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+341,Blue Cheese,Blauschimmelkäse,Cheese,Käse,low,0,0,0,0
+342,Tapioca,Tapioka,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+343,Sesame Oil,Sesamöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+344,Spaghetti squash,Spaghettikürbis,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+345,Okra,Okra,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+346,Capers,Kapern,Condiments,Gewürze,low,0,0,0,0
+347,Gin,Gin,Drinks,Getränke,low,0,0,0,0
+348,Jasmine rice,Jasminreis,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+349,Kombucha,Kombucha,Drinks,Getränke,high,2,0,0,0
+350,Molasses,Melasse,Condiments,Gewürze,high,,,,
+351,Sorghum,Sorghum,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+352,Almond flour,Mandelmehl,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+353,Coconut flour,Kokosmehl,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,2,2,0
+354,Cumin,Kreuzkümmel,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+355,Endive,Endivie,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+356,Garlic powder,Knoblauchpulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",high,2,0,0,0
+357,Garlic salt,Knoblauchsalz,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",high,2,0,0,0
+358,Millet flour,Hirsemehl,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+359,Halloumi / Hellim,Halloumi / Hellim,Cheese,Käse,low,0,0,0,0
+360,Rice noodles,Reisnudeln,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+361,Watercress,Brunnenkresse,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+362,Celeriac,Sellerie,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+363,Salt,Salz,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+364,"Pepper, black","Pfeffer, schwarz","Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+365,Jicama,Jicama,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+366,Paprika,Paprika,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+367,Asiago cheese,Asiago-Käse,Cheese,Käse,low,0,0,0,0
+368,Miso paste,Misopaste,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+369,Tomato paste,Tomatenmark,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+370,Baby spinach,Babyspinat,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+371,"Apricots, dried","Aprikosen, getrocknet",Fruit,Obst,high,1,0,2,0
+372,"Guava, ripe","Guave, reif",Fruit,Obst,low,0,0,0,0
+373,"Guava, unripe","Guave, unreif",Fruit,Obst,high,0,2,0,0
+374,"Banana, dried","Banane, getrocknet",Fruit,Obst,low,0,0,0,0
+375,Yucca root,Yucca-Wurzel,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+376,Feijoa,Feijoa,Fruit,Obst,high,0,2,0,0
+377,"Chips, corn (plain)","Chips, Mais (natur)","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+378,Nutritional Yeast,Nährhefe,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+379,Tempeh,Tempeh,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+380,Snow peas,Zuckerschoten,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+381,Capsicum,Paprika,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+382,Collard greens,Grünkohl,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+383,Lemonade,Limonade,Drinks,Getränke,low,0,0,0,0
+384,Nutmeg,Muskatnuss,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+385,Persimmon,Persimmon,Fruit,Obst,high,2,0,0,0
+386,Tumeric,Kurkuma,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+387,Wheat flour,Weizenmehl,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+388,Wild rice,Wildreis,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+389,Alfalfa sprouts,Alfalfa-Sprossen,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+390,Amaranth flour,Amaranthmehl,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,0,0,0,0
+391,"Amaranth, puffed grain","Amaranth, gepufftes Getreide","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+392,Cardamom,Kardamom,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+393,Carob powder,Johannisbrotpulver,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+394,Chicory leaves,Chicoréeblätter,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+395,"Garbanzo beans, canned","Kichererbsen, aus der Dose",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+396,Gherkins in vinegar,Gurken in Essig,Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+397,Lychee,Litschi,Fruit,Obst,high,0,0,2,0
+398,Palm sugar,Palmzucker,Sweeteners,Süßstoffe,low,0,0,0,0
+399,Pesto sauce,Pesto-Sauce,Condiments,Gewürze,low,0,0,0,0
+400,Sunflower oil,Sonnenblumenöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+401,Grits,Grütze,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+402,Horseradish,Meerrettich,Condiments,Gewürze,low,0,0,0,0
+403,Plantains,Kochbananen,Fruit,Obst,low,0,0,0,0
+404,Ghee,Ghee,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+405,Oatcake,Haferkeks,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+406,Dried Cranberries,Getrocknete Cranberries,Fruit,Obst,low,0,0,0,0
+407,Currants,Johannisbeeren,Fruit,Obst,high,2,0,0,0
+408,Vegemite,Vegemite,Condiments,Gewürze,low,0,0,0,0
+409,Marmite,Marmite,Condiments,Gewürze,low,0,0,0,0
+410,Onion Powder,Zwiebelpulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",high,2,0,0,0
+411,Garlic Powder,Knoblauchpulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",high,2,0,0,0
+412,Rambutan,Rambutan,Fruit,Obst,low,0,0,0,0
+413,Soba noodles,Soba-Nudeln,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+414,Wasabi powder,Wasabi-Pulver,Condiments,Gewürze,low,0,0,0,0
+415,"Figs, fresh","Feigen, frisch",Fruit,Obst,high,0,2,0,0
+416,"Dandelion tea, weak","Löwenzahntee, schwach",Drinks,Getränke,low,0,0,0,0
+417,"Lentils, canned","Linsen, konserviert",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+418,"Mung beans, sprouted","Mungobohnen, gekeimt",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+419,"Kidney beans, sprouted","Kidneybohnen, gekeimt",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+420,"Black beans, canned","Schwarze Bohnen, aus der Dose",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+421,"Bananas, unripe","Bananen, unreif",Fruit,Obst,low,0,0,0,0
+422,"Barley, sprouted","Gerste, gekeimt","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+423,"Barley, flour","Gerste, Mehl","Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",high,2,0,0,0
+424,"Chickpeas, sprouted","Kichererbsen, gekeimt",Vegetables and legumes,Gemüse und Hülsenfrüchte,high,0,0,0,0
+425,"Cranberry, dried","Cranberry, getrocknet",Fruit,Obst,low,0,0,0,0
+426,"Cabbage, red","Kohl, rot",Vegetables and legumes,Gemüse und Hülsenfrüchte,low,0,0,0,0
+427,Cacao powder,Kakaopulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+428,Cranberry Juice,Cranberry-Saft,Drinks,Getränke,low,0,0,0,0
+429,"Dill, fresh","Dill, frisch","Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+430,Avocado Oil,Avocadoöl,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
+431,"Sardines, canned in oil","Sardinen, in Öl eingelegt",Meat & Substitutes,Fleisch und Ersatzstoffe,low,0,0,0,0
+432,Sugar snap peas,Zuckerschoten,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,0,2,0,0
+433,Red onion,Rote Zwiebel,Vegetables and legumes,Gemüse und Hülsenfrüchte,high,2,0,0,0
+434,Corn starch,Maisstärke,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+435,Teff flour,Teffmehl,"Breads, Cereals, Grains and Pasta","Brot, Müsli, Getreide und Nudeln",low,0,0,0,0
+436,Chili powder,Chilipulver,"Cooking ingredients, Herbs and Spices","Kochzutaten, Kräuter und Gewürze",low,0,0,0,0
