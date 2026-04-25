@@ -22,6 +22,21 @@
       --accent: #2c5282;
     }
 
+    [data-theme="dark"] {
+      --bg: #111110;
+      --surface: #1c1c1a;
+      --border: #2e2e2b;
+      --text: #e8e6e1;
+      --muted: #7a7870;
+      --low: #4ade80;
+      --low-bg: #14301f;
+      --med: #fbbf24;
+      --med-bg: #2d2200;
+      --high: #f87171;
+      --high-bg: #2d1212;
+      --accent: #60a5fa;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
@@ -256,7 +271,7 @@
 
     tbody tr { border-bottom: 1px solid var(--bg); transition: background 0.1s; }
     tbody tr:last-child { border-bottom: none; }
-    tbody tr:hover { background: #fafaf7; }
+    tbody tr:hover { background: var(--bg); }
 
     td {
       padding: 10px 16px;
@@ -376,6 +391,20 @@
 
     .modal-actions { display: flex; gap: 8px; justify-content: flex-end; }
 
+    .theme-toggle {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 4px;
+      color: rgba(255,255,255,0.7);
+      padding: 4px 8px;
+      cursor: pointer;
+      font-size: 14px;
+      line-height: 1;
+      transition: all 0.15s;
+    }
+
+    .theme-toggle:hover { background: rgba(255,255,255,0.1); color: #fff; }
+
     @media (max-width: 600px) {
       td:nth-child(4), th:nth-child(4) { display: none; }
       td:nth-child(5), th:nth-child(5) { display: none; }
@@ -387,6 +416,7 @@
 <header>
   <h1>⊕ FODMAP Checker</h1>
   <div class="header-right">
+    <button id="theme-btn" class="theme-toggle" onclick="toggleTheme()" title="Dark / Light mode">🌙</button>
     <div class="lang-toggle">
       <button id="btn-de" class="active" onclick="setLang('de')">DE</button>
       <button id="btn-en" onclick="setLang('en')">EN</button>
@@ -466,6 +496,31 @@ let activeList = localStorage.getItem('fodmap-active-list') || 'default';
 let lists = {};   // { listName: [item, ...] }
 let modalCallback = null;
 
+// ─── Theme ────────────────────────────────────────────────────────────────────
+(function applyStoredTheme() {
+  const dark = localStorage.getItem('fodmap-theme') === 'dark';
+  if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+})();
+
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  if (isDark) {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('fodmap-theme', 'light');
+    document.getElementById('theme-btn').textContent = '🌙';
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    localStorage.setItem('fodmap-theme', 'dark');
+    document.getElementById('theme-btn').textContent = '☀️';
+  }
+}
+
+function syncThemeBtn() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const btn = document.getElementById('theme-btn');
+  if (btn) btn.textContent = isDark ? '☀️' : '🌙';
+}
+
 // ─── Init ─────────────────────────────────────────────────────────────────────
 async function init() {
   // Load data
@@ -485,6 +540,7 @@ async function init() {
   if (!lists['default']) lists['default'] = [];
 
   applyLang();
+  syncThemeBtn();
   renderListTabs();
   renderTable();
   initSearch();
