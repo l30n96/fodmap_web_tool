@@ -1,0 +1,6 @@
+[
+  {"id":"1","name":"Polenta","name_de":"Polenta","fodmap":"low","category":"Breads, Cereals, Grains and Pasta","category_de":"Brot, Getreide, Körner und Pasta","details":{"oligos":0,"fructose":0,"polyols":0,"lactose":0}},
+  {"id":"2","name":"Fennel","name_de":"Fenchel","fodmap":"low","category":"Vegetables and legumes","category_de":"Gemüse und Hülsenfrüchte","details":{"oligos":0,"fructose":0,"polyols":0,"lactose":0}},
+  {"id":"3","name":"Vegetable oil","name_de":"Pflanzenöl","fodmap":"low","category":"Cooking ingredients, Herbs and Spices","category_de":"Kochzutaten, Kräuter und Gewürze","details":{"oligos":0,"fructose":0,"polyols":0,"lactose":0}},
+  {"id":"4","name":"Apple","name_de":"Apfel","fodmap":"high","category":"Fruit","category_de":"Obst","details":{"oligos":0,"fructose":2,"polyols":2,"lactose":0}},
+  {"id":"5","name":"Banana (ripe)","name_de":"Banane (reif)","fodmap":"high","category":"Fruit","category_de":"Obst","details":{"oligos":2,"fructose":0,"
